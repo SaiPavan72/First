@@ -1,0 +1,16 @@
+<form action="/students/save_staff/" method="post">
+    {% csrf_token %}
+
+    Name <input type="text" name="name"><br>
+    email <input type="text" name="email"><br>
+    mobile<input type="text" name="phone"><br>
+    department<input type="text" name="department"><br>
+    Qualification<input type="text" name="qualification"><br>
+    experiance<input type="text" name="experiance"><br>
+    username<input type="text" name="username"><br>
+    password<input type="text" name="password"><br>
+
+    <input type="submit" value="Register"><br>
+
+</form>
+    <a href="/students/">Back</a>
